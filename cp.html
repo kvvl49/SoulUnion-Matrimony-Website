@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Profile</title>
+    <link rel="stylesheet" href="cp.css">
+</head>
+<body>
+
+<nav>
+    <h1>Soul❤️Union Matrimony</h1>
+
+    <div>
+        <a href="search1.html">Search Matches</a>
+        <a href="fav.html">Favourites</a>
+        <a href="login.html">Logout</a>
+    </div>
+</nav>
+
+<div class="container">
+
+<h2>Create Your Profile</h2>
+
+<form id="profileForm">
+
+<!---------------- Personal Details ---------------->
+
+<h3>Personal Details</h3>
+
+<label>Full Name</label>
+<input type="text" id="name" required>
+<span class="error" id="nameError"></span>
+
+<label>Gender</label>
+<select id="gender" required>
+<option value="">Select Gender</option>
+<option>Male</option>
+<option>Female</option>
+</select>
+<span class="error" id="genderError"></span>
+
+<label>Date of Birth</label>
+<input type="date" id="dob" required>
+<span class="error" id="dobError"></span>
+
+<label>Mobile Number</label>
+<input type="text" id="mobile" maxlength="10" required>
+<span class="error" id="mobileError"></span>
+
+<label>Height</label>
+<input type="text" id="height" placeholder="5.8 ft" required>
+
+<label>Religion</label>
+<select id="religion" required>
+<option value="">Select</option>
+<option>Hindu</option>
+<option>Christian</option>
+<option>Muslim</option>
+</select>
+
+<label>Caste</label>
+<input type="text" id="caste" required>
+
+<label>Mother Tongue</label>
+<input type="text" id="language" required>
+
+<label>Marital Status</label>
+<select id="status" required>
+<option value="">Select</option>
+<option>Never Married</option>
+<option>Divorced</option>
+<option>Widow/Widower</option>
+</select>
+
+<!---------------- Education ---------------->
+
+<h3>Education Details</h3>
+
+<label>Qualification</label>
+<input type="text" id="qualification" required>
+
+<label>College</label>
+<input type="text" id="college" required>
+
+<label>Occupation</label>
+<input type="text" id="occupation" required>
+
+<label>Annual Income</label>
+<input type="text" id="income" required>
+
+<!---------------- Family ---------------->
+
+<h3>Family Details</h3>
+
+<label>Father Name</label>
+<input type="text" id="father" required>
+
+<label>Mother Name</label>
+<input type="text" id="mother" required>
+
+<label>Family Type</label>
+<select id="familyType" required>
+<option value="">Select</option>
+<option>Joint Family</option>
+<option>Nuclear Family</option>
+</select>
+
+<label>Family Status</label>
+<select id="familyStatus" required>
+<option value="">Select</option>
+<option>Middle Class</option>
+<option>Upper Middle Class</option>
+<option>Rich</option>
+</select>
+
+<!---------------- Location ---------------->
+
+<h3>Location</h3>
+
+<label>City</label>
+<input type="text" id="city" required>
+
+<label>State</label>
+<input type="text" id="state" required>
+
+<label>Country</label>
+<input type="text" id="country" required>
+
+<!---------------- Photo ---------------->
+
+<h3>Profile Photo</h3>
+
+<input type="file"
+id="photo"
+accept="image/*"
+required>
+
+<br><br>
+
+<button type="submit">
+Create Profile
+</button>
+
+</form>
+
+</div>
+<footer>
+
+<p>
+© 2026  Soul❤️Union Matrimony. All Rights Reserved.
+</p>
+</footer>
+
+<script src="cp.js"></script>
+
+</body>
+</html>

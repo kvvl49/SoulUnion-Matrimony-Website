@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+nav{
+    background:linear-gradient(rgb(255, 255, 255),#FF66CC);
+    padding: 15px;
+    text-align: center;
+}
+nav h1{
+    color: white;
+    margin-bottom: 10px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+}
+
+nav a:hover{
+    color: rgb(32, 32, 30);
+}
+
+.hero{
+    width:100%;
+    padding:20px;
+    max-width:1500px;
+}
+.contact{
+    width:90%;
+    margin:auto;
+    padding:50px 0;
+}
+
+.contact h1{
+    text-align:center;
+    font-size:40px;
+    color:#d63384;
+}
+
+.contact p{
+    text-align:center;
+    margin:15px 0 40px;
+}
+
+.container{
+    display:flex;
+    justify-content:space-between;
+    gap:40px;
+    flex-wrap:wrap;
+}
+
+.contact-info{
+    flex:1;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.1);
+}
+
+.contact-info h2{
+    margin-bottom:20px;
+}
+
+.contact-info p{
+    text-align:left;
+    margin:15px 0;
+}
+
+.contact-form{
+    flex:2;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.1);
+}
+
+.contact-form form{
+    display:flex;
+    flex-direction:column;
+}
+
+input,
+textarea{
+    margin-bottom:20px;
+    padding:15px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    font-size:16px;
+}
+
+button{
+    background:#d63384;
+    color:white;
+    border:none;
+    padding:15px;
+    font-size:18px;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+button:hover{
+    background:#b52a6f;
+}
+footer{
+    background-color:#1e3a8a;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+    line-height:1.8;
+}

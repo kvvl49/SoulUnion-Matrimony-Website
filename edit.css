@@ -1,0 +1,106 @@
+/* edit.css */
+
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right,#667eea,#764ba2);
+}
+
+
+/* Edit card */
+
+body h2{
+    text-align:center;
+    color:white;
+    margin-top:40px;
+}
+
+
+body{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+nav{
+    background:linear-gradient(rgb(255, 255, 255),#FF66CC);
+    padding: 15px;
+    text-align: center;
+}
+
+nav h1{
+    color: white;
+    margin-bottom: 10px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+}
+
+nav a:hover{
+    color: rgb(32, 32, 30);
+}
+
+/* Inputs */
+
+input{
+    width:300px;
+    padding:12px;
+    margin:10px;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+    outline:none;
+}
+
+
+/* File input */
+
+input[type="file"]{
+    background:white;
+    padding:10px;
+}
+
+
+/* Update button */
+
+button{
+    width:320px;
+    padding:12px;
+    margin-top:20px;
+    border:none;
+    border-radius:8px;
+    background:white;
+    color:#667eea;
+    font-size:17px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+
+button:hover{
+    background:#667eea;
+    color:white;
+}
+footer{
+    background-color:#1e3a8a;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+    line-height:1.8;
+}
+
+
+/* mobile */
+
+@media(max-width:500px){
+
+    input,
+    button{
+        width:80%;
+    }
+
+}

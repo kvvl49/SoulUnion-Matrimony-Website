@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+nav{
+   background-color: rgb(244, 9, 209);
+    padding: 15px;
+    text-align: center;
+}
+
+nav h1{
+    color: white;
+    margin-bottom: 10px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+}
+
+nav a:hover{
+    color: yellow;
+}
+
+.register-container{
+    width: 420px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px gray;
+}
+
+.register-container h1,
+.register-container h2{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="tel"]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+fieldset{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+fieldset label{
+    display: inline;
+    margin-right: 15px;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: rgb(226, 33, 175);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(204, 31, 126);
+}
+
+hr{
+    margin: 20px 0;
+}
+
+p{
+    text-align: center;
+}
+
+p a{
+    text-decoration: none;
+    color: rgb(244, 9, 209);
+    margin-left: 5px;
+}
+
+footer{
+    background-color:#bc1d97;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+    line-height:1.8;
+}

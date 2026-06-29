@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Search Matches</title>
+
+<link rel="stylesheet" href="search1.css">
+
+</head>
+
+<body>
+
+<!-- Navigation -->
+
+<nav>
+
+<h1>Soul❤️Union Matrimony</h1>
+<a href="index.html">Back to Home</a>
+
+<div class="nav-right">
+
+<div class="user">
+
+<img id="profilePic" src="" alt="Profile">
+
+<div>
+
+<h3 id="userName"></h3>
+
+<p>Welcome Back ❤️</p>
+
+</div>
+
+</div>
+
+<button onclick="logout()">Logout</button>
+
+</div>
+
+</nav>
+
+<!-- Hero Buttons -->
+
+<section class="hero">
+
+<button onclick="window.location.href='mydetails.html'">
+
+👤 My Details
+
+</button>
+
+<button onclick="window.location.href='shortlist.html'">
+
+❤️ Shortlist
+
+</button>
+
+<button onclick="window.location.href='interested.html'">
+
+💌 Interested
+
+</button>
+
+</section>
+
+<!-- Search Filters -->
+
+<section class="filters">
+
+<h2>Search Your Perfect Match</h2>
+
+<input id="age" placeholder="Age">
+
+<select id="gender">
+
+<option value="">Gender</option>
+
+<option>Male</option>
+
+<option>Female</option>
+
+</select>
+
+<select id="religion">
+
+<option value="">Religion</option>
+
+<option>Hindu</option>
+
+<option>Christian</option>
+
+<option>Muslim</option>
+
+</select>
+
+<select id="caste">
+
+<option value="">Caste</option>
+
+<option>Brahmin</option>
+
+<option>Reddy</option>
+
+<option>Kamma</option>
+
+<option>Kapu</option>
+
+<option>Velama</option>
+
+<option>Yadav</option>
+
+<option>SC</option>
+
+<option>ST</option>
+
+<option>BC</option>
+
+<option>Others</option>
+
+</select>
+
+<input id="qualification" placeholder="Qualification">
+
+<input id="occupation" placeholder="Occupation">
+
+<input id="city" placeholder="City">
+
+<input id="state" placeholder="State">
+
+<button onclick="filterProfiles()">
+
+Search
+
+</button>
+
+<button onclick="resetFilters()">
+
+Reset
+
+</button>
+
+<select id="sort" onchange="sortProfiles()">
+
+<option value="">Sort By</option>
+
+<option value="name">Name</option>
+
+<option value="age">Age</option>
+
+</select>
+
+</section>
+
+<!-- Match Profiles -->
+
+<section>
+
+<h2 class="title">
+
+Recommended Matches
+
+</h2>
+
+<div id="profiles" class="cards">
+
+</div>
+
+</section>
+
+<!-- Premium Profiles -->
+
+<section>
+
+<h2 class="title">
+
+⭐ Premium Members
+
+</h2>
+
+<div class="premium">
+
+<div class="premium-card">
+
+<img src="img/sudheer.jpg">
+
+<h3>Premium Member</h3>
+
+<button onclick="subscribeAlert()">
+
+View Profile
+
+</button>
+
+</div>
+
+<div class="premium-card blur">
+
+<img src="img/sudheer.jpg">
+
+<div class="overlay">
+
+<h2>🔒</h2>
+
+<p>
+
+Subscribe to unlock this profile
+
+</p>
+
+<button onclick="subscribeAlert()">
+
+Subscribe
+
+</button>
+
+</div>
+
+</div>
+
+<div class="premium-card blur">
+
+<img src="img/sudheer.jpg">
+
+<div class="overlay">
+
+<h2>🔒</h2>
+
+<p>
+
+Subscribe to unlock this profile
+
+</p>
+
+<button onclick="subscribeAlert()">
+
+Subscribe
+
+</button>
+
+</div>
+
+</div>
+
+<div class="premium-card blur">
+
+<img src="img/sudheer.jpg">
+
+<div class="overlay">
+
+<h2>🔒</h2>
+
+<p>
+
+Subscribe to unlock this profile
+
+</p>
+
+<button onclick="subscribeAlert()">
+
+Subscribe
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<script src="search1.js"></script>
+
+</body>
+
+</html>
